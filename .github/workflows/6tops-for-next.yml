@@ -43,11 +43,10 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "v2023.12-6TOPS-next-rc1"
+          tag_name: "v2023.12-6TOPS-next-rc2"
           body: |
-            ## Linux Kernel 6TOPS (next) rc1
-            - Add linux-next support
-            - Edgeble NCM6a, NCM6b
+            ## Linux Kernel 6TOPS (next) rc2
+            - RTLRTW8852BE WiFi6/BT
           files: |
            linux.tar.xz
            modules.tar.xz
